@@ -1,0 +1,20 @@
+body {
+    color: black;
+    background-color: rgb(184, 228, 83);
+    margin: 5rem;
+}
+
+
+
+.enfant1 {
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.box{
+    border: 10px solid white;
+    height: 170px;
+    width: 170px;
+    display: inline-block;
+}
