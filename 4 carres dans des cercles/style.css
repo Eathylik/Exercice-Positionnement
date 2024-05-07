@@ -1,3 +1,5 @@
+/* le vh determine la hauteur de la page */
+
 body {
     margin: 0;
     padding: 0;
@@ -38,8 +40,8 @@ de l'enfant dans le parent */
 
 .rond1 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     left: 0px;
@@ -47,8 +49,8 @@ de l'enfant dans le parent */
 
 .rond2 {
     background-color: rgba(170, 4, 4, 0.37);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     right: 0px;
@@ -56,8 +58,8 @@ de l'enfant dans le parent */
 
 .rond3 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     bottom: 0px;
@@ -65,8 +67,8 @@ de l'enfant dans le parent */
 
 .rond4 {
     background-color: rgba(170, 4, 4, 0.37);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     bottom: 0px;
@@ -85,8 +87,8 @@ de l'enfant dans le parent */
 
 .rond5 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     bottom: 0;
@@ -94,8 +96,8 @@ de l'enfant dans le parent */
 
 .rond6 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     bottom: 0;
@@ -104,8 +106,8 @@ de l'enfant dans le parent */
 
 .rond7 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     right: 30px;
@@ -122,8 +124,8 @@ de l'enfant dans le parent */
 
 .rond8 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
     bottom: 0;
@@ -132,8 +134,8 @@ de l'enfant dans le parent */
 
 .rond9 {
     background-color: rgba(170, 4, 4, 0.377);
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: absolute;
 }
