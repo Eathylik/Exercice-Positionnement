@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* par defaut le positionnement est en statick il faut
+le changer au niveau du parent pour que l'enfant puisse changer dans le 
+parent sinon il prendra le changement au niveau du body */
+
+/* sur le parent utiliser la position relative et sur les enfants
+utiliser la position absolute pour changer le comportement
+de l'enfant dans le parent */
+
+.fond {
+    background-color: rgba(165, 42, 42, 0.904);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+/* carre 1 parent des ronds 1,2,3 et 4 */
+
+.carre1 {
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+
+.rond1 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+.rond2 {
+    background-color: rgba(170, 4, 4, 0.37);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+
+.rond3 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.rond4 {
+    background-color: rgba(170, 4, 4, 0.37);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* carre 2 parent des rond 5,6 et 7 */
+
+.carre2 {
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+
+.rond5 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rond6 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rond7 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+}
+
+/* carre 3 parent du rond 8 et 9 */
+
+.carre3 {
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.rond8 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rond9 {
+    background-color: rgba(170, 4, 4, 0.377);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+/* carre4 parent du rond 10 */
+
+.carre4 {
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.rond10 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+}
